@@ -5,7 +5,7 @@
 
      stage('Run Script') { 
        steps { 
-         bat 'python number_signe.py 5' 
+         bat 'py number_signe.py 5' 
        } 
      } 
    } 
